@@ -1,4 +1,5 @@
 FROM openjdk
 COPY . /app
 WORKDIR /app
-CMD javac Calculator.java
+RUN javac Calculator.java
+CMD ["java","Calculator"]
