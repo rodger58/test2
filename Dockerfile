@@ -1,4 +1,4 @@
 FROM openjdk
 COPY . /app
 WORKDIR /app
-CMD node Calculator.java
+CMD javac Calculator.java
